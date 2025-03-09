@@ -9,7 +9,7 @@ import {NgIf} from '@angular/common';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, ProductItemComponent, NgIf],
+  imports: [ ProductItemComponent, NgIf],
   templateUrl: './home.component.html',
   standalone: true,
   styleUrl: './home.component.css'

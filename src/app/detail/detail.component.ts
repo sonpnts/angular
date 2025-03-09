@@ -10,8 +10,8 @@ import {ProductItems} from '../shared/types/productItem';
 import {serviceBlog} from '../../services/serviceBlog';
 
 @Component({
-  selector: 'app-root',
-  imports: [RouterOutlet, CurencyPipePipe],
+  selector: 'app-detail',
+  imports: [ CurencyPipePipe],
   templateUrl: './detail.component.html',
   standalone: true,
   styleUrl: './detail.component.css'
